@@ -8,7 +8,7 @@ pipeline {
     }
     stage('test') {
       steps {
-        sh 'pytest -v --cov'
+        sh 'pytest -v'
       }   
     }
   }
